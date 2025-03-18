@@ -6,6 +6,7 @@ import Awards from "./Awards";
 import Image from "next/image";
 
 export default function TeamDetails() {
+  console.log("TeamDetails");
   return (
     <section className="section pt-120">
       <div className="container-sub">
