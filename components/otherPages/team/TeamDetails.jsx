@@ -118,13 +118,13 @@ export default function TeamDetails() {
                   <li>
                     <div className="label-left text-16-medium">Phone</div>
                     <div className="text-info-right text-14">
-                      +32 39 029 201
+                      07811134592
                     </div>
                   </li>
                   <li>
                     <div className="label-left text-16-medium">Email</div>
                     <div className="text-info-right text-14">
-                      rahmanzahid@luxride.com
+                      esmatzahid@icloud.com 
                     </div>
                   </li>
                   <li>

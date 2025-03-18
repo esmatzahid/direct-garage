@@ -6,7 +6,11 @@ const transporter = nodemailer.createTransport({
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASS,
   },
+  tls: {
+    rejectUnauthorized: false, // Ignore SSL verification errors
+  },
 });
+
 
 export const sendBookingConfirmation = async (bookingDetails) => {
   const {
@@ -17,7 +21,7 @@ export const sendBookingConfirmation = async (bookingDetails) => {
     date,
     time,
   } = bookingDetails;
-
+console.log("bookingDetails", bookingDetails);
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to: passengerDetails.email,
