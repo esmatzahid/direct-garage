@@ -14,9 +14,9 @@ export default function Footer2() {
     <footer className="footer footer-white">
       <div className="footer-1">
         <div className="container-sub">
-          <div className="box-footer-top">
+          <div className="">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-6 text-md-start text-center mb-15 wow fadeInUp">
+              {/* <div className="col-lg-6 col-md-6 text-md-start text-center mb-15 wow fadeInUp">
                 <div className="d-flex align-items-center justify-content-md-start justify-content-center">
                   {/* <a className="mr-30" href="#">
                     <Image
@@ -26,22 +26,29 @@ export default function Footer2() {
                       alt="Luxride"
                     />
                   </a> */}
-                  <a
+              {/* <a
                     className="text-14-medium call-phone color-white hover-up"
                     href="tel:+447851483478"
                   >
                     +44 7851 483478
                   </a>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-6 text-md-end text-center mb-15 wow fadeInUp">
-                <div className="d-flex align-items-center justify-content-md-end justify-content-center">
-                  <span className="text-18-medium color-white mr-10">
-                    Follow Us
+              </div> */}
+              <div className="box-footer-top wow fadeInUp">
+                <div className="d-flex align-items-center justify-content-between flex-wrap">
+                  <a
+                    className="text-14-medium call-phone color-white hover-up"
+                    href="tel:+447851483478"
+                  >
+                    +44 7851 483478
+                  </a>
+                  <span className="text-14-medium address-footer color-white hover-up d-inline-block mb-20">
+                    Bell Pl, Wolverhampton WV2 4LY, United Kingdom{" "}
                   </span>
-                  {socialMediaPlatforms.map((elm, i) => (
-                    <a key={i} className={elm.className} href={elm.href}></a>
-                  ))}
+                  <span className="text-14-medium time-footer color-white hover-up d-inline-block mb-20">
+                    Mon-Sat: 09:00 - 17:00 - Sun: 10:00 - 14:00
+                    {/* { Monday to Saturday 9-6 , Sundays 10-2 */} 
+                  </span>
                 </div>
               </div>
             </div>
