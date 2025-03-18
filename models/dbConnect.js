@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const MONGODB_URI =
-  "mongodb://localhost:27017/newstack";
+  "mongodb+srv://esmatzahid:esmatzahid78@direct.a26f0.mongodb.net/?retryWrites=true&w=majority&appName=direct";
 
 if (!MONGODB_URI) {
   throw new Error(

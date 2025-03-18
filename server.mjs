@@ -11,9 +11,7 @@ const dev = process.env.NODE_ENV !== "production";
 const port = process.env.PORT || 3000;
 const app = next({ dev });
 const database =
-  // "mongodb+srv://2223016:N6bVPiFwmE5hhoI5@cluster0.3dvrp.mongodb.net/Limoservices?retryWrites=true&w=majority" 
-  // // ||
-  "mongodb://localhost:27017/newstack";
+"mongodb+srv://esmatzahid:esmatzahid78@direct.a26f0.mongodb.net/?retryWrites=true&w=majority&appName=direct"
 console.log("Database", database);
 const handle = app.getRequestHandler();
 
