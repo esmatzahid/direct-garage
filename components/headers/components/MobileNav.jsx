@@ -35,6 +35,9 @@ export default function MobileNav() {
       <li>
         <Link href="/booking" onClick={closeMobileMenu}>Booking</Link>
       </li>
+      <li>
+        <Link href="/search" onClick={closeMobileMenu}>Search</Link>
+      </li>
     </>
   );
 }
