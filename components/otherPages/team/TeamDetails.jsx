@@ -107,7 +107,7 @@ export default function TeamDetails() {
                     maxHeight: "350px",
                     objectFit: "cover",
                   }}
-                  src="/assets/imgs/13.jpg"
+                  src="/assets/imgs/13.webp"
                   alt="luxride"
                 />
               </div>
@@ -118,14 +118,12 @@ export default function TeamDetails() {
                 <ul className="list-info-user">
                   <li>
                     <div className="label-left text-16-medium">Phone</div>
-                    <div className="text-info-right text-14">
-                      07811134592
-                    </div>
+                    <div className="text-info-right text-14">07811134592</div>
                   </li>
                   <li>
                     <div className="label-left text-16-medium">Email</div>
                     <div className="text-info-right text-14">
-                      esmatzahid@icloud.com 
+                      esmatzahid@icloud.com
                     </div>
                   </li>
                   <li>
