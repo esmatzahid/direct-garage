@@ -1,15 +1,23 @@
+import { NextResponse } from "next/server";
+import obdCodes from "@/data/obdCodes.json";
+
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
-  const code = searchParams.get("code");
+  const code = searchParams.get("code")?.toUpperCase();
 
-  try {
-    const response = await fetch(`https://carapi.app/api/obd-codes/${encodeURIComponent(code)}`);
-    const data = await response.json();
-    return Response.json(data);
-  } catch (error) {
-    return Response.json(
-      { error: "Failed to fetch OBD data" },
-      { status: 500 }
-    );
+  if (!code) {
+    return NextResponse.json({ error: "Code is required" }, { status: 400 });
   }
+
+  const result = obdCodes.find((item) => item.code === code);
+
+  if (!result) {
+    return NextResponse.json([], { status: 200 });
+  }
+
+  return NextResponse.json({
+    code: result.code,
+    description: result.meaning,
+    system: result.system,
+  });
 }
