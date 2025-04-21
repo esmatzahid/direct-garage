@@ -1,0 +1,23 @@
+[
+    { "code": "P0442", "system": "Powertrain", "meaning": "Evaporative Emission System Leak Detected (Small Leak)" },
+    { "code": "P2101", "system": "Powertrain", "meaning": "Throttle Actuator Control Motor Circuit Range/Performance" },
+    { "code": "P0171", "system": "Powertrain", "meaning": "System Too Lean (Bank 1)" },
+    { "code": "B0092", "system": "Body", "meaning": "Airbag Deactivation Indicator Circuit Failure" },
+    { "code": "B1446", "system": "Body", "meaning": "Air Mix Door Motor Fault" },
+    { "code": "B2266", "system": "Body", "meaning": "Key Transponder Circuit Fault" },
+    { "code": "C121C", "system": "Chassis", "meaning": "Torque Request Signal Denied" },
+    { "code": "C0561", "system": "Chassis", "meaning": "System Disabled Information Stored" },
+    { "code": "C0899", "system": "Chassis", "meaning": "Device Voltage Low" },
+    { "code": "C003A", "system": "Chassis", "meaning": "Right Rear Wheel Speed Sensor Circuit" },
+    { "code": "U1000", "system": "Network", "meaning": "Class 2 Communication Malfunction" },
+    { "code": "U0402", "system": "Network", "meaning": "Invalid Data Received from TCM" },
+    { "code": "U110C", "system": "Network", "meaning": "Lost Communication with Fuel Pump Control Module" },
+    { "code": "U1301", "system": "Network", "meaning": "Class 2 Short to Battery" },
+    { "code": "P0128", "system": "Powertrain", "meaning": "Coolant Thermostat (Coolant Temperature Below Thermostat Regulating Temperature)" },
+    { "code": "P0325", "system": "Powertrain", "meaning": "Knock Sensor 1 Circuit Malfunction (Bank 1)" },
+    { "code": "B1620", "system": "Body", "meaning": "Seatbelt Tension Sensor Fault" },
+    { "code": "C0236", "system": "Chassis", "meaning": "Rear Wheel Speed Correlation" },
+    { "code": "U0420", "system": "Network", "meaning": "Invalid Data Received From Power Steering Control Module" },
+    { "code": "U0415", "system": "Network", "meaning": "Invalid Data Received from ABS Module" }
+  ]
+  
