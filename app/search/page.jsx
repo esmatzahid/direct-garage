@@ -9,7 +9,7 @@ const Page = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-
+  console.log("helo");
   // Handle input changes
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
@@ -41,7 +41,6 @@ const Page = () => {
         });
     }, 500);
 
-   
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
